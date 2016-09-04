@@ -41,7 +41,7 @@
 
 </script>
 </head>
-<link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+<link href="/tipuesearch/tipuesearch.css" rel="stylesheet">
  
 
 <body>
@@ -107,16 +107,16 @@
             </li>
    
 
-            <!--<form class="navbar-form navbar-left" action="/search.html" role="search">-->
-<li>           
-<!--<form class="navbar navbar-default" action="/search.html" role="search">-->
-<form  action="/search.html" role="search">
-            <div class="form-group">
-              <input type="text" required name="q" id="tipue_search_input" class="form-control" placeholder="Zoeken"> 
-            </div>
-          </form>
- </li>          
-  </ul>
+           
+            <li>           
+
+              <form  action="/search.html" role="search">
+                <div class="form-group">
+                  <input type="text" required name="q" id="tipue_search_input" class="form-control" placeholder="Zoeken"> 
+                </div>
+              </form>
+            </li>          
+         </ul>
 
             </div>
             <!-- /.navbar-collapse -->
@@ -189,14 +189,14 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="https://liesverbruggen.github.io/xoia/js/bootstrap.min.js"></script>
 
-<script src="tipuesearch/tipuesearch_content.js"></script>
-<script src="tipuesearch/tipuesearch_set.js"></script>
-<script src="tipuesearch/tipuesearch.min.js"></script>
+<script src="/tipuesearch/tipuesearch_content.js"></script>
+<script src="/tipuesearch/tipuesearch_set.js"></script>
+<script src="/tipuesearch/tipuesearch.min.js"></script>
 <script>
 $(document).ready(function() {
      $('#tipue_search_input').tipuesearch({
           'mode': 'json',
-          'contentLocation': 'tipuesearch/tipuesearch_content.json' 
+          'contentLocation': '/tipuesearch/tipuesearch_content.json' 
      });
 });
 </script>
