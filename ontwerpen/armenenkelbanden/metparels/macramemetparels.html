@@ -20,6 +20,8 @@
     <meta property="og:image" content="http://xoia.liesverbruggen.com/images/macramemetparels_top.jpg" />
     <meta property="og:description" content="Zelf armbanden, oorbellen, kettingen, juwelen en sieraden maken" />
 
+    <meta property="fb:app_id" content="1780250995589580" />
+
 
     <!-- Bootstrap Core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -53,22 +55,13 @@
 <body>
 
 <div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1780250995589580',
-      xfbml      : true,
-      version    : 'v2.7'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/nl_BE/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nl_BE/sdk.js#xfbml=1&version=v2.7&appId=1780250995589580";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </script>
 
   
